@@ -43,7 +43,7 @@ func main() {
 		User: "ethan",
 		Auth: []ssh.AuthMethod{
 			// SSHAgent(),
-			ssh.Password("pplab00"),
+			ssh.Password("xxxxx"),
 		},
 	}
 	conn, err := ssh.Dial("tcp", server+":22", config)
